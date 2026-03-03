@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Kimi Says No More Tabs!",
+  "version": "1.0.0",
+  "description": "Just leave me alone, I know what I'm doing. A minimal Kimi Räikkönen quote extension.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+  "action": {
+    "default_popup": "settings.html",
+    "default_icon": {
+      "16": "assets/icon.png",
+      "48": "assets/icon.png",
+      "128": "assets/icon.png"
+    }
+  }
+}
